@@ -1,0 +1,92 @@
+# pritingira-app
+Tantra Jyotish App for Remedies, Kundli, and Direct Contact | Pritingira
+pritingira-app/
+├── index.html
+├── style.css
+├── script.js
+├── manifest.json
+├── assets/
+│   ├── logo.png
+│   └── bg.jpg
+└── README.md<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>🔱 Pritingira – Tantra Jyotish Seva</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="manifest" href="manifest.json">
+</head>
+<body>
+  <header>
+    <img src="assets/logo.png" alt="Pritingira Logo">
+    <h1>🔱 Pritingira – Tantra Jyotish Seva</h1>
+    <p>शक्ति, सुरक्षा और समाधान का परम स्रोत</p>
+  </header>
+
+  <section id="intro">
+    <h2>देवी विपरीत प्रत्यंगिरा</h2>
+    <p>शत्रुओं पर विजय, काले जादू से रक्षा, तांत्रिक उपायों की शक्ति – सब एक स्थान पर</p>
+  </section>
+
+  <section id="services">
+    <h2>🧿 सेवाएं</h2>
+    <ul>
+      <li>🔸 कुंडली विश्लेषण (PDF में)</li>
+      <li>🔸 विवाह मिलान</li>
+      <li>🔸 तांत्रिक उपाय (मंत्र, यंत्र, साधना)</li>
+      <li>🔸 सुरक्षा कवच निर्माण</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>📞 संपर्क करें</h2>
+    <a href="https://wa.me/91XXXXXXXXXX" class="btn">📲 WhatsApp करें</a><br>
+    <a href="tel:+91XXXXXXXXXX" class="btn">📞 कॉल करें</a>
+  </section>
+
+  <section id="payment">
+    <h2>💰 UPI Payment</h2>
+    <p>UPI ID: <strong>kalshsharma272@okaxis</strong></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Pritingira – Tantra Jyotish Seva</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>body {
+  font-family: "Segoe UI", sans-serif;
+  background-color: #f8f0ff;
+  color: #2c003e;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+header {
+  background-color: #400040;
+  color: white;
+  padding: 20px;
+}
+header img {
+  width: 80px;
+}
+section {
+  padding: 20px;
+}
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #6a0dad;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  margin: 10px 5px;
+}
+footer {
+  background-color: #eee;
+  padding: 10px;
+  font-size: 14px;
+// Placeholder for future interactive features
+console.log("Pritingira App Loaded Successfully");
